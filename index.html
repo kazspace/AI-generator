@@ -5,39 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SheCodes: Poem Generator</title>
     <link rel="stylesheet" href="stye.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header><h1>AI Poem Generator</h1></header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a topic for the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="button" value="Submit" />
-      </form>
-      <div>
-        Poem to go here
-        <br />
-        Poem to go here
-      </div>
-    </main>
+    <div class="container">
+      <header><h1>AI Poem Generator</h1></header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a topic for the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="button" value="Submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          Poem to go here
+          <br />
+          Poem to go here
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/kazspace" target="_blank">Kara Tsonos</a>,
-      open-sourced on
-      <a href="https://github.com/kazspace/AI-generator" target="_blank"
-        >GitHub</a
-      >
-      and hosted on
-      <a href="https://deluxe-medovik-56056d.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/kazspace" target="_blank">Kara Tsonos</a>,
+        open-sourced on
+        <a href="https://github.com/kazspace/AI-generator" target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://deluxe-medovik-56056d.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

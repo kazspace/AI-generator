@@ -4,4 +4,70 @@ body {
     rgb(220, 217, 249) 0%,
     rgb(172, 224, 217) 89.8%
   );
+  font-family: "Dosis", Arial, sans-serif;
+}
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #430f58;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+a {
+  color: #5f5dbd;
+}
+
+form {
+  padding: 30px;
+  background-color: #d5def5;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 7px -2px 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+.instructions {
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: #5f5dbd;
+}
+
+.submit-button {
+  margin-left: 10px;
+  border-radius: 50px;
+  color: white;
+  background-color: #5f5dbd;
+  border: none;
+  padding: 14px 24px;
+  width: 150px;
+  font-size: 16px;
+}
+
+.poem {
+  font-size: 16px;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid #5f5dbd;
+  background-color: #d5def5;
+  box-shadow: 7px -2px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
 }
