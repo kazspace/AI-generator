@@ -5,7 +5,7 @@ function generatePoem(event) {
     strings: "roses are red, violets are blue",
     autoStart: true,
     delay: 1,
-    cusor: "",
+    cursor: "",
   });
 }
 
