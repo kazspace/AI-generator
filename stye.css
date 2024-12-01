@@ -66,6 +66,10 @@ form {
   box-shadow: 7px -2px 20px rgba(0, 0, 0, 0.2);
 }
 
+.poem strong {
+  color: #5f5dbd;
+}
+
 footer {
   text-align: center;
   font-size: 13px;
